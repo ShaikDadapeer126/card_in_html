@@ -1,0 +1,81 @@
+
+<!-- TO design a Card -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        #hi{
+            border: 2px gray solid;
+            background-color: whitesmoke;
+            height: 470px;
+            width: fit-content;
+            border-radius: 15px;
+           
+        }
+        img{
+            height: 200px;
+            width: 350px;
+            border-radius: 15px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .bttn {
+            display:flex;
+            margin:5px;
+            /* padding: 10px; */
+        }
+        .bttn button{
+            border-radius: 10px;
+            margin: 12px;
+            font-weight: bold;
+            font-size: large;
+            color: gray;
+            background-color: rgba(0, 0, 0, 0.228);
+            border: 0px;
+            cursor: pointer;
+        }
+        .heading h1{
+            margin-top: -10px;
+            padding: 10px;
+            
+        }
+        .heading p{
+            margin-top: -15px;
+            padding: 10px;
+            color: gray;
+        }
+        .read{
+            text-align: center;
+        }
+        .read button{
+            font-size: large;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color:rgb(93, 231, 185);
+            color: blue;
+            height: 30px;
+            border: 1px;
+            cursor: pointer;
+        }
+    </Style>
+</head>
+<body>
+    <div id="hi">
+        <img src="https://wallpapers.com/images/high/2012-avengers-logo-iadcar7ip678m0s1.webp" alt="Avengers">
+        <div class="bttn">
+            <button>About</button>
+            <button>Characters</button>
+        </div>
+        <div class="heading">
+            <h1>Avengers </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Officiis officia illum tempore quaerat omnis <br>inventore in ex adipisci labore pariatur!</p>
+        </div>
+        <div class="read">
+            <button type="button">Read More</button>
+        </div>
+    </div>
+</body>
+</html>
